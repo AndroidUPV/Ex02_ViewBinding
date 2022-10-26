@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<resources>
+    <string name="app_name">Ex02_ViewBinding</string>
+    <!-- Strings to display in the layout -->
+    <string name="greetings">Greetings David!</string>
+    <string name="going_on">What is going on?</string>
+    <string name="anything_new">Anything new?</string>
+</resources>
