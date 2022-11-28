@@ -12,6 +12,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="8dp"
     tools:context=".MainActivity">
 
     <!--hardcoded string, bad design-->
@@ -19,8 +20,6 @@
         android:id="@+id/tvHardcoded"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
         android:text="Hello World!"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,9 +38,8 @@
         android:id="@+id/tvRuntimeId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
         app:layout_constraintStart_toStartOf="@+id/tvStatic"
-        app:layout_constraintTop_toTopOf="@+id/tvStatic"
+        app:layout_constraintTop_toBottomOf="@+id/tvStatic"
         tools:text="Not to be displayed" />
 
     <!--string assigned at runtime-->
